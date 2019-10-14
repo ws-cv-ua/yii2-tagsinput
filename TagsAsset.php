@@ -12,7 +12,7 @@ use yii\web\AssetBundle;
 
 class TagsAsset extends AssetBundle
 {
-    public $sourcePath = 'wscvua\yii2tagsinput/public';
+    public $sourcePath = '@vendor/ws-cv-ua/yii2-tagsinput/public';
 
     public $js = [
         'jquery.tagsinput-revisited.js'

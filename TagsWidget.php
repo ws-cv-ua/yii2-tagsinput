@@ -1,4 +1,7 @@
 <?php
+/**
+ * @author Web-Studio.cv.ua
+ */
 
 namespace wscvua\yii2tagsinput;
 use yii\helpers\BaseHtml;
@@ -28,6 +31,6 @@ class TagsWidget extends InputWidget
         $name = isset($options['name']) ? $options['name'] : BaseHtml::getInputName($this->model, $this->attribute);
         $value = isset($options['value']) ? $options['value'] : BaseHtml::getAttributeValue($this->model, $this->attribute);
 
-        $this->render('index', compact('id', 'js', 'source', 'name', 'value'));
+        return $this->render('index', compact('id', 'js', 'source', 'name', 'value'));
     }
 }
