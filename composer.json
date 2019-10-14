@@ -3,14 +3,17 @@
     "description": "Yii2 jQuery Tags Input",
     "type": "yii2-extension",
     "keywords": ["yii2","tagsinput"],
+    "stability": "stable",
     "license": "MIT",
     "authors": [
         {
             "name": "Web-Studio.cv.ua",
-            "email": "info@web-studio.cv.ua"
+            "email": "info@web-studio.cv.ua",
+            "homepage": "https://Web-Studio.cv.ua"
         }
     ],
     "require": {
+        "php": ">=5.6",
         "yiisoft/yii2": "~2.0.0"
     },
     "autoload": {
