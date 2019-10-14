@@ -1,8 +1,8 @@
 {
     "name": "ws-cv-ua/yii2-tagsinput",
-    "description": "Yii2 jQuery Tags Input",
+    "description": "Yii2 Widget: jQuery Tags Input",
     "type": "yii2-extension",
-    "keywords": ["yii2","tagsinput"],
+    "keywords": ["yii2","tagsinput", "tag", "tag input"],
     "stability": "stable",
     "license": "MIT",
     "authors": [
