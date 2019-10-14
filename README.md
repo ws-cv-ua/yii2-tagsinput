@@ -28,4 +28,5 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \wscvua\yii2tagsinput\AutoloadExample::widget(); ?>```
+<?= \wscvua\yii2tagsinput\AutoloadExample::widget(); ?>
+```
