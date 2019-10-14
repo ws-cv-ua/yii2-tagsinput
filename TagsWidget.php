@@ -2,11 +2,12 @@
 
 namespace wscvua\yii2tagsinput;
 use yii\helpers\BaseHtml;
+use yii\jui\InputWidget;
 
 /**
  * This is just an example.
  */
-class TagsWidget extends \yii\base\Widget
+class TagsWidget extends InputWidget
 {
     public $jsOptions = [
         'interactive' => 'true',
