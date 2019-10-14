@@ -1,0 +1,21 @@
+{
+    "name": "ws-cv-ua/yii2-tagsinput",
+    "description": "Yii2 jQuery Tags Input",
+    "type": "yii2-extension",
+    "keywords": ["yii2","tagsinput"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Web-Studio.cv.ua",
+            "email": "info@web-studio.cv.ua"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "wscvua\\yii2tagsinput\\": ""
+        }
+    }
+}
