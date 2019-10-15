@@ -12,7 +12,7 @@
 
 \wscvua\yii2tagsinput\TagsAsset::register($this);
 
-$jsConfig = json_encode($js);
+$jsConfig = \yii\helpers\Json::encode($js);
 
 $this->registerJs(<<<JS
 $('#$id').tagsInput($jsConfig);

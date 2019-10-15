@@ -28,4 +28,23 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \wscvua\yii2tagsinput\AutoloadExample::widget(); ?>```
+<?= \wscvua\yii2tagsinput\AutoloadExample::widget(); ?>
+```
+
+More configuration for plugin: [Responsive Tags Input With Autocomplete - jQuery tagsInput](https://www.jqueryscript.net/form/Tags-Input-Autocomplete.html)  
+[Demos](https://www.jqueryscript.net/demo/Tags-Input-Autocomplete/)  
+
+Example with autocompete
+---
+```php
+<?= $form->field($model, 'tags')->widget(\wscvua\yiitagsinput\TagsWidget::className(), [
+       'jsOptions' => [
+           'autocomplete' => [
+               'source' => [
+                   'tagtest1',
+                   'tagtest2',
+                ]
+           ]
+        ]
+]); ?>
+```
