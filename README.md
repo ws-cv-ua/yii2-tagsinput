@@ -1,8 +1,7 @@
 ![alt text](https://web-studio.cv.ua/img/logo-dark.png "Web-Studio.cv.ua")  
 
-Yii2 jQuery Tags Input ()
-=========================
 Yii2 jQuery Tags Input
+=========================
 
 Installation
 ------------
